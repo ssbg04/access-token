@@ -1,4 +1,4 @@
-# After downloaded this repository
+# Documentation
 
 **Installation**
 - extract the zip file
