@@ -1,7 +1,7 @@
 import fs from "fs";
 import jwt from "jsonwebtoken"
 
-const sa = JSON.parse(fs.readFileSync("./service-account.json"));
+const sa = JSON.parse(fs.readFileSync("./private-key.json"));
 
 const now = Math.floor(Date.now() / 1000);
 
