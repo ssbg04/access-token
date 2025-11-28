@@ -1,7 +1,25 @@
+# After downloaded this repository
+
+** Installation **
+- extract the zip file
+- open the root folder
+- right click open to vscode, or type cmd in the folder url at the top
+- **you make sure your directory have package.json**
+- run `npm install` or `npm i`
+- to start `node sign-jwt.js`
+- copy your access token
+
+---
+
 # Firestore Database
 **Export or Download your access account config**
 
 If your firebase use firestore you need to get your access account from your settings of firestore
+
+Sample url: https://firestore.googleapis.com/v1/projects/<PROJECT_ID>/databases/(default)/documents/users
+
+** The bearer is the access token from the sign-jwt.js**
+- Authorization: Bearer <ACCESS_TOKEN>
 
 ---
 
