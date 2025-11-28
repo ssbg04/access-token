@@ -19,7 +19,7 @@ If your firebase use firestore you need to get your access account from your set
 
 Sample url: https://firestore.googleapis.com/v1/projects/<PROJECT_ID>/databases/(default)/documents/users
 
-** The bearer is the access token from the sign-jwt.js**
+**The bearer is the access token from the sign-jwt.js**
 - Authorization: Bearer <ACCESS_TOKEN>
 
 ---
