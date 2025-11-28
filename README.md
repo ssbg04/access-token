@@ -1,10 +1,11 @@
 # After downloaded this repository
 
-** Installation **
+**Installation**
 - extract the zip file
 - open the root folder
 - right click open to vscode, or type cmd in the folder url at the top
 - **you make sure your directory have package.json**
+- open a terminal inside vscode
 - run `npm install` or `npm i`
 - to start `node sign-jwt.js`
 - copy your access token
