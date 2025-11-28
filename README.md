@@ -8,7 +8,16 @@
 - open a terminal inside vscode
 - run `npm install` or `npm i`
 - to start `node sign-jwt.js`
-- copy your access token
+- copy your private key
+
+---
+
+## To get the private key:
+- open your project
+- navigate the project settings
+- Service account
+- **Download your private key**
+- then run the sign-jwt.js by `node sign-jwt.js`
 
 ---
 
